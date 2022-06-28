@@ -30,10 +30,10 @@ A transaction file holds a bunch of information, both numerical - id, amount, fe
 
 The choice should satisfy some rules, it should allow random pick-up and also an easy codification methodology, so I´ve decided to work with the transaction amount column data because: 
 
--it happens randomly
--it has a wide range, allowing correlation with a large range of notes
--It´s numerical and allows easy manipulation
--It happens frequently along the time
+- it happens randomly
+- it has a wide range, allowing correlation with a large range of notes
+- It´s numerical and allows easy manipulation
+- It happens frequently along the time
 
 
 ### First Manipulations
@@ -49,7 +49,7 @@ To make music we need to have an audio engine code to generate a sound output. I
 
 https://web.mit.edu/music21/doc/index.html#
 
-### Creating relation between transaction amount and musical notes
+### Creating relationship between transaction amount and musical notes
 
 The challenge now is to convert the transaction amount column in a readable string.
 The Music21 music note string is composed by the music note plus it´s duration:
@@ -67,14 +67,14 @@ And it´s possible to give it an object name alias:
 `n3 = note.Note('A2 ' , quarterLength = .75)`
 
 
-So this way we can create a relation between the transactions query results and the notes by formatting the result column, adding a 'n' before the number:
+So this way we can create a relationship between the transactions query results and the notes by formatting the result column, adding a 'n' before the number:
 
 ![image](https://user-images.githubusercontent.com/71954914/176133623-1f0ecc18-c06c-4e14-8a36-0ee4892875b0.png)
 ![image](https://user-images.githubusercontent.com/71954914/176141144-cb434b29-2d6f-4b95-ae08-92ab0c5c1c7e.png)
 
 
 Now we need to create a table of notes from which the code will compare the result string of the transactions query to generate a melody line.
-I´ve used Google Sheets to write a big table with 350 notes of `C major` natural scale from A2 to G6 with different duration combinations in order to have a wider range of possibilities.
+I´ve used Google Sheets to write a big table with 350 notes of `C major` natural scale from `A2` to `G6` with different duration combinations in order to have a wider range of possibilities.
 
 ![image](https://user-images.githubusercontent.com/71954914/176138105-110dc3b1-5818-4121-92e8-de7b6f4cf368.png)
 
