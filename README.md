@@ -6,7 +6,7 @@ It´s a project for **Money Makes Music challenge** - creating music from money.
 
 This code generates a peacefull lullaby melody by converting the transactions amount of an especific choosen date into piano notes.
 
-The project is made in Python running on Google Colab notebook.
+The project was made in Python running on Google Colab notebook.
 
 ## About the project
 
@@ -106,12 +106,16 @@ To make things more fun, I´ve added a custom date filter, so you can select a d
 
 ## How to run:
 
+Access the following link:
+https://colab.research.google.com/drive/1gwrzofns7Kvs1APimiKH5Ej3GzPO59oM?usp=sharing
+
+
 #### 1-Run "General Setup"
-This cell install everything is needed to to run the code properly. 
+This cell install everything is needed to run the code properly. 
 
 *In this step your CW´s credentials will be requested to give access to the database to run the query that will fetch de transactions data. 
 
-**You need to have permission to access the project `infinitepay-production` on Big Query database.
+**You need to have the permission to access the project `infinitepay-production` on Big Query database.
 ![image](https://user-images.githubusercontent.com/71954914/176036444-2e6a2ef0-8ad6-4b2c-85d7-1f31478d9405.png)
 
 
