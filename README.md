@@ -133,10 +133,6 @@ Press the play button and enjoy your song!
 
 *everytime you want to change the date and generate another melody, reload all the 3 steps in order to refresh the engine.*
 
-![image](https://user-images.githubusercontent.com/71954914/176036624-94be1a70-33cd-4b10-aac4-482c59794602.png)
+![image](https://user-images.githubusercontent.com/71954914/176227421-cd8bd13c-5d02-45c7-885a-85a2d3545813.png)
 
-
-![image](https://user-images.githubusercontent.com/71954914/176036820-fe563147-c7ef-429a-bc54-ff0cf1884573.png)
-
-![image](https://user-images.githubusercontent.com/71954914/176145596-19592539-f99f-4536-ba7d-2d1839e7e6c0.png)
 
