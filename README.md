@@ -1,4 +1,4 @@
-# Daily Balance Lullaby
+# Daily Balance Lullaby - How to run
 It´s a project for Money Makes Music challenge - creating music from money.
 
 This code generates a peacefull lullaby melody by converting the transactions amount of an especific choosen date into piano notes.
