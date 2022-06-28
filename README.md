@@ -127,6 +127,8 @@ Here you can select any date > '2019-06-01'. In this step a query will be execut
 
 Press the play button and enjoy your song!
 
+*everytime you want to change the date and generate another melody, reload all the 3 steps in order to refresh the engine.*
+
 ![image](https://user-images.githubusercontent.com/71954914/176036624-94be1a70-33cd-4b10-aac4-482c59794602.png)
 
 
