@@ -2,7 +2,7 @@
 
 ### intro
 
-It´s a project for Money Makes Music challenge - creating music from money.
+It´s a project for **Money Makes Music challenge** - creating music from money.
 
 This code generates a peacefull lullaby melody by converting the transactions amount of an especific choosen date into piano notes.
 
@@ -12,13 +12,19 @@ The project is made in Python running on Google Colab notebook.
 
 ### Concept definition
 
-A melody is born when a sequence of sounds happens along the timeline. For that, we need to have at least two basic parameters, one to define the sounds, and other to define the timeline.
-A transaction is born when someone needs to pay for something.
+>A melody is born when a sequence of sounds happens along the timeline. For that, we need to have at least two basic parameters, one to define the sounds, and other to define the timeline.
 
-That´s simple, Isn´t it? It´s true, but working with payments doesn´t always sound like music…
+>A transaction is born when someone needs to pay for something.
+
+That´s simple, Isn´t it? 
+
+It´s true, but working with payments doesn´t always sound like music…
 There´s a lot of information running wild through a huge complex system, a lot of problems to be fixed, a lot of processes to be designed, tons of numbers coming in and going out connecting millions of people.
+
 It´s so fkn stressful! 
+
 How could we transform this chaotic scenario into a peaceful music?
+
 What about a clean and calm piano melody to make you sleep as a child?
 
 So, let´s do it...
