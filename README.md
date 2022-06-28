@@ -122,16 +122,13 @@ This cell install everything is needed to to run the code properly.
 
 
 
-#### 3-Run "Select the date interval from which your song will be generated:"
-Here you can select any date > '2019-06-01'. In this step a query will be executed and the transactions of the selected date will be converted to an coded string
+#### 3-Run "Select the date and enjoy your music!"
+Here you can select any date > '2019-06-01'. In this step a query will be executed and the transactions of the selected date will be converted in an encoded string that will be crossed with the notes table to generate the melody.
+
+Press the play button and enjoy your song!
+
 ![image](https://user-images.githubusercontent.com/71954914/176036624-94be1a70-33cd-4b10-aac4-482c59794602.png)
 
-
-
-
-#### 4-Run "Listen to your song and have a good night!"
-this section generates the melody by crossing the query´s encoded string and the notes table. Press the play button and enjoy your song!
-![image](https://user-images.githubusercontent.com/71954914/176036699-c2064db3-60df-4f76-ab5b-32acf0604214.png)
 
 ![image](https://user-images.githubusercontent.com/71954914/176036820-fe563147-c7ef-429a-bc54-ff0cf1884573.png)
 
