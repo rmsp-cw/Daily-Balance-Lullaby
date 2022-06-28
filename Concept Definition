@@ -1,0 +1,29 @@
+Concept definition
+
+A melody is born when a sequence of sounds happens along the timeline. For that, we need to have at least two basic parameters, one to define the sounds, and other to define the timeline.
+A transaction is born when someone needs to pay for something.
+
+That´s simple, Isn´t it? It´s true, but working with payments doesn´t always sound like music…
+There´s a lot of information running wild through a huge complex system, a lot of problems to be fixed, a lot of processes to be designed, tons of numbers coming in and going out connecting millions of people.
+It´s so fkn stressful! 
+How could we transform this chaotic scenario into a peaceful music?
+What about a clean and calm piano melody to make you sleep as a child?
+
+So, let´s do it...
+
+Parameters definition
+
+A transaction file holds a bunch of information, both numerical - id, amount, fees, card number, installments, etc. - and non-numerical - cardholder name, merchant name, card brand,etc., so the first decision was to choose the most suitable parameters to be converted in musical notes.
+
+
+The choice should satisfy some rules, it should allow random pick-up and also an easy codification methodology, so I´ve decided to work with the transaction amount column data because: 
+
+-it happens randomly
+-it has a wide range, allowing correlation with a large range of notes
+-It´s numerical and allows easy manipulation
+-It happens frequently along the time
+
+
+First Manipulations
+
+The transaction amount is a float number. To produce piano notes we need to covert it in integers.
