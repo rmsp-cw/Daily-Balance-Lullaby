@@ -88,7 +88,7 @@ I´ve used Google Sheets to write a big table with 350 notes of `C major` natura
 ### Final settings
 
 The amount range is very wide, we have transactions from cents to thousand hundreds, it´s impossible to take one piano note to each transaction amount value.
-To solve this we need to limit the transactions range, or make the relationship by amount ranges. 
+To solve this we need to limit the transactions range, or make the relationship by amount range buckets. 
 
 For the first version I´ve only filtered by transactions with amount between 1 and 350 , producing notes from n1 to n350 that is our table notes range. I´ve also added a filter to limit the string length to 100 notes, resulting in a melody of about 1 minute.
 
