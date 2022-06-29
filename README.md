@@ -109,7 +109,6 @@ To make things more fun, I´ve added a custom date filter, so you can select a d
 Access the following link:
 https://colab.research.google.com/drive/1gwrzofns7Kvs1APimiKH5Ej3GzPO59oM?usp=sharing
 
-
 #### 1-Run "General Setup"
 This cell install everything is needed to run the code properly. 
 
